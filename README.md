@@ -1,7 +1,6 @@
 # hoshinokoto.github.io
-First time building Phaser 3 game
+First Time Building Phaser 3 Game
 
-Description:
 Considering my brother loves to play Nintendo video game, I decided to build a small web game as a birthday gift for him.
 I learned about how to build Phaser 3 game from CodeCademy about 2 weeks ago. (https://www.codecademy.com/learn/learn-phaser)
 The course wasn't too difficult for me, so I thought it should be easy to build up a mini game as a gift.
