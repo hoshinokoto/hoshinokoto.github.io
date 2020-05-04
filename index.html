@@ -1,23 +1,31 @@
----
-layout: default
----
-
-<div class="home">
-
-  <h1 class="page-heading">Posts</h1>
-
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
-</div>
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Happy Birthday Bro :)</title>
+        <link href="style.css" type="text/css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+        <script src="//cdn.jsdelivr.net/npm/phaser@3.22.0/dist/phaser.min.js"></script>
+        <script src="javascripts/start.js"></script>
+        <script src="javascripts/level.js"></script>
+        <script src="javascripts/level_01.js"></script>
+        <script src="javascripts/level_02.js"></script>
+        <script src="javascripts/level_03.js"></script>
+        <script src="javascripts/level_04.js"></script>
+        <script src="javascripts/letter.js"></script>
+        <script src="javascripts/game.js"></script>
+    </head>
+    <body>
+        <!-- Console -->
+        <div class="console">
+            
+            <!-- Game Section -->
+            <div class="game" id="theGame"></div>
+            
+        </div>
+        
+        
+        
+</body>
+</html>
