@@ -1,0 +1,2499 @@
+{
+	"textures": [
+		{
+			"image": "assets-0.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 2048,
+				"h": 2044
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "elements/Frogsuit.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 918,
+						"h": 882
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 918,
+						"h": 882
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 918,
+						"h": 882
+					}
+				},
+				{
+					"filename": "background/Bubble.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 958,
+						"h": 958
+					},
+					"spriteSourceSize": {
+						"x": 9,
+						"y": 44,
+						"w": 949,
+						"h": 835
+					},
+					"frame": {
+						"x": 921,
+						"y": 1,
+						"w": 949,
+						"h": 835
+					}
+				},
+				{
+					"filename": "enemies/Ptooie/Ptooie_Bite_04.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 136,
+						"h": 364
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 136,
+						"h": 364
+					},
+					"frame": {
+						"x": 1872,
+						"y": 1,
+						"w": 136,
+						"h": 364
+					}
+				},
+				{
+					"filename": "player/Mario/Mario_Jump_01.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 164,
+						"h": 250
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 164,
+						"h": 250
+					},
+					"frame": {
+						"x": 1872,
+						"y": 367,
+						"w": 164,
+						"h": 250
+					}
+				},
+				{
+					"filename": "player/FireMario/FireMario_Jump_01.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 163,
+						"h": 223
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 163,
+						"h": 223
+					},
+					"frame": {
+						"x": 1872,
+						"y": 619,
+						"w": 163,
+						"h": 223
+					}
+				},
+				{
+					"filename": "background/Bubble_02.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 958,
+						"h": 958
+					},
+					"spriteSourceSize": {
+						"x": 9,
+						"y": 44,
+						"w": 947,
+						"h": 835
+					},
+					"frame": {
+						"x": 921,
+						"y": 838,
+						"w": 947,
+						"h": 835
+					}
+				},
+				{
+					"filename": "enemies/KoopaTroopa/KoopaTroopa_Walk_04.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 165,
+						"h": 219
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 165,
+						"h": 219
+					},
+					"frame": {
+						"x": 1870,
+						"y": 844,
+						"w": 165,
+						"h": 219
+					}
+				},
+				{
+					"filename": "player/Mario/Mario_Jump_02.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 162,
+						"h": 224
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 2,
+						"w": 162,
+						"h": 222
+					},
+					"frame": {
+						"x": 1870,
+						"y": 1065,
+						"w": 162,
+						"h": 222
+					}
+				},
+				{
+					"filename": "enemies/KoopaTroopa/KoopaTroopa_Walk_02.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 164,
+						"h": 217
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 1,
+						"w": 164,
+						"h": 216
+					},
+					"frame": {
+						"x": 1870,
+						"y": 1289,
+						"w": 164,
+						"h": 216
+					}
+				},
+				{
+					"filename": "enemies/KoopaTroopa/KoopaTroopa_Walk_01.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 152,
+						"h": 217
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 152,
+						"h": 217
+					},
+					"frame": {
+						"x": 1870,
+						"y": 1507,
+						"w": 152,
+						"h": 217
+					}
+				},
+				{
+					"filename": "enemies/KoopaTroopa/KoopaTroopa_Walk_03.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 152,
+						"h": 217
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 152,
+						"h": 217
+					},
+					"frame": {
+						"x": 1870,
+						"y": 1507,
+						"w": 152,
+						"h": 217
+					}
+				},
+				{
+					"filename": "enemies/Bowser/Bowser_Roar_02.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 524,
+						"h": 334
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 523,
+						"h": 334
+					},
+					"frame": {
+						"x": 1,
+						"y": 1675,
+						"w": 523,
+						"h": 334
+					}
+				},
+				{
+					"filename": "elements/ExitTop.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 242,
+						"h": 6
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 242,
+						"h": 6
+					},
+					"frame": {
+						"x": 1,
+						"y": 2011,
+						"w": 242,
+						"h": 6
+					}
+				},
+				{
+					"filename": "enemies/Bowser/Bowser_Fail_02.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 391,
+						"h": 454
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 390,
+						"h": 454
+					},
+					"frame": {
+						"x": 526,
+						"y": 885,
+						"w": 390,
+						"h": 454
+					}
+				},
+				{
+					"filename": "elements/Fireflower.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 340,
+						"h": 364
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 340,
+						"h": 364
+					},
+					"frame": {
+						"x": 526,
+						"y": 1341,
+						"w": 340,
+						"h": 364
+					}
+				},
+				{
+					"filename": "background/Mushroom_02.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 50,
+						"h": 41
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 50,
+						"h": 41
+					},
+					"frame": {
+						"x": 868,
+						"y": 1341,
+						"w": 50,
+						"h": 41
+					}
+				},
+				{
+					"filename": "background/Mushroom_01.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 49,
+						"h": 41
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 49,
+						"h": 41
+					},
+					"frame": {
+						"x": 868,
+						"y": 1384,
+						"w": 49,
+						"h": 41
+					}
+				},
+				{
+					"filename": "elements/Arrow.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 495,
+						"h": 392
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 495,
+						"h": 392
+					},
+					"frame": {
+						"x": 1,
+						"y": 885,
+						"w": 495,
+						"h": 392
+					}
+				},
+				{
+					"filename": "enemies/Bowser/Bowser_Fail_01.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 492,
+						"h": 392
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 492,
+						"h": 392
+					},
+					"frame": {
+						"x": 1,
+						"y": 1279,
+						"w": 492,
+						"h": 392
+					}
+				},
+				{
+					"filename": "enemies/Bowser/Bowser_Hit_01.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 492,
+						"h": 392
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 492,
+						"h": 392
+					},
+					"frame": {
+						"x": 1,
+						"y": 1279,
+						"w": 492,
+						"h": 392
+					}
+				},
+				{
+					"filename": "elements/Mushroom.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 351,
+						"h": 336
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 351,
+						"h": 336
+					},
+					"frame": {
+						"x": 868,
+						"y": 1675,
+						"w": 351,
+						"h": 336
+					}
+				},
+				{
+					"filename": "enemies/PiranhaPlant/PiranhaPlant_Fail_02.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 302,
+						"h": 302
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 302,
+						"h": 302
+					},
+					"frame": {
+						"x": 526,
+						"y": 1707,
+						"w": 302,
+						"h": 302
+					}
+				},
+				{
+					"filename": "background/Tree_02.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 282,
+						"h": 301
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 282,
+						"h": 301
+					},
+					"frame": {
+						"x": 1221,
+						"y": 1675,
+						"w": 282,
+						"h": 301
+					}
+				},
+				{
+					"filename": "background/Bush_01.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 133,
+						"h": 65
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 133,
+						"h": 65
+					},
+					"frame": {
+						"x": 1221,
+						"y": 1978,
+						"w": 133,
+						"h": 65
+					}
+				},
+				{
+					"filename": "background/Bush_02.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 133,
+						"h": 65
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 133,
+						"h": 65
+					},
+					"frame": {
+						"x": 1356,
+						"y": 1978,
+						"w": 133,
+						"h": 65
+					}
+				},
+				{
+					"filename": "background/Tree_01.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 116,
+						"h": 44
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 116,
+						"h": 44
+					},
+					"frame": {
+						"x": 1491,
+						"y": 1978,
+						"w": 116,
+						"h": 44
+					}
+				},
+				{
+					"filename": "enemies/PiranhaPlant/PiranhaPlant_Bite_02.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 259,
+						"h": 288
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 258,
+						"h": 288
+					},
+					"frame": {
+						"x": 1609,
+						"y": 1675,
+						"w": 258,
+						"h": 288
+					}
+				},
+				{
+					"filename": "elements/Pipe.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 178,
+						"h": 249
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 178,
+						"h": 249
+					},
+					"frame": {
+						"x": 1869,
+						"y": 1726,
+						"w": 178,
+						"h": 249
+					}
+				},
+				{
+					"filename": "elements/Crate.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 77,
+						"h": 77
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 77,
+						"h": 77
+					},
+					"frame": {
+						"x": 1609,
+						"y": 1965,
+						"w": 77,
+						"h": 77
+					}
+				},
+				{
+					"filename": "background/Stone.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 90,
+						"h": 54
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 90,
+						"h": 54
+					},
+					"frame": {
+						"x": 1688,
+						"y": 1965,
+						"w": 90,
+						"h": 54
+					}
+				},
+				{
+					"filename": "background/Sign_01.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 63,
+						"h": 65
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 63,
+						"h": 65
+					},
+					"frame": {
+						"x": 1780,
+						"y": 1965,
+						"w": 63,
+						"h": 65
+					}
+				},
+				{
+					"filename": "background/Sign_02.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 62,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 62,
+						"h": 64
+					},
+					"frame": {
+						"x": 1845,
+						"y": 1977,
+						"w": 62,
+						"h": 64
+					}
+				},
+				{
+					"filename": "background/Bush_03.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 73,
+						"h": 47
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 73,
+						"h": 47
+					},
+					"frame": {
+						"x": 1909,
+						"y": 1977,
+						"w": 73,
+						"h": 47
+					}
+				},
+				{
+					"filename": "elements/Axe.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 75,
+						"h": 89
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 75,
+						"h": 89
+					},
+					"frame": {
+						"x": 1505,
+						"y": 1675,
+						"w": 75,
+						"h": 89
+					}
+				},
+				{
+					"filename": "background/Bush_04.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 73,
+						"h": 46
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 73,
+						"h": 46
+					},
+					"frame": {
+						"x": 1505,
+						"y": 1766,
+						"w": 73,
+						"h": 46
+					}
+				}
+			]
+		},
+		{
+			"image": "assets-1.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 2030,
+				"h": 2048
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "background/Bubble_03.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 958,
+						"h": 958
+					},
+					"spriteSourceSize": {
+						"x": 9,
+						"y": 44,
+						"w": 947,
+						"h": 835
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 947,
+						"h": 835
+					}
+				},
+				{
+					"filename": "background/Bubble_01.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 927,
+						"h": 801
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 927,
+						"h": 801
+					},
+					"frame": {
+						"x": 950,
+						"y": 1,
+						"w": 927,
+						"h": 801
+					}
+				},
+				{
+					"filename": "player/Mario/Mario_WalkBig_02.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 138,
+						"h": 223
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 138,
+						"h": 223
+					},
+					"frame": {
+						"x": 1879,
+						"y": 1,
+						"w": 138,
+						"h": 223
+					}
+				},
+				{
+					"filename": "player/Mario/Mario_WalkBig_04.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 138,
+						"h": 223
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 138,
+						"h": 223
+					},
+					"frame": {
+						"x": 1879,
+						"y": 1,
+						"w": 138,
+						"h": 223
+					}
+				},
+				{
+					"filename": "player/Mario/Mario_WalkSmall_02.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 138,
+						"h": 223
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 138,
+						"h": 223
+					},
+					"frame": {
+						"x": 1879,
+						"y": 226,
+						"w": 138,
+						"h": 223
+					}
+				},
+				{
+					"filename": "player/Mario/Mario_WalkSmall_04.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 138,
+						"h": 223
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 138,
+						"h": 223
+					},
+					"frame": {
+						"x": 1879,
+						"y": 226,
+						"w": 138,
+						"h": 223
+					}
+				},
+				{
+					"filename": "player/Mario/Mario_Idle_03.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 135,
+						"h": 221
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 135,
+						"h": 221
+					},
+					"frame": {
+						"x": 1879,
+						"y": 451,
+						"w": 135,
+						"h": 221
+					}
+				},
+				{
+					"filename": "player/Mario/Mario_WalkBig_03.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 138,
+						"h": 216
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 138,
+						"h": 216
+					},
+					"frame": {
+						"x": 1879,
+						"y": 674,
+						"w": 138,
+						"h": 216
+					}
+				},
+				{
+					"filename": "elements/Block_Question.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 613,
+						"h": 612
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 613,
+						"h": 612
+					},
+					"frame": {
+						"x": 950,
+						"y": 804,
+						"w": 613,
+						"h": 612
+					}
+				},
+				{
+					"filename": "background/Tree_03.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 282,
+						"h": 275
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 282,
+						"h": 275
+					},
+					"frame": {
+						"x": 1565,
+						"y": 804,
+						"w": 282,
+						"h": 275
+					}
+				},
+				{
+					"filename": "enemies/Ptooie/Ptooie_Bite_03.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 180,
+						"h": 357
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 180,
+						"h": 357
+					},
+					"frame": {
+						"x": 1849,
+						"y": 892,
+						"w": 180,
+						"h": 357
+					}
+				},
+				{
+					"filename": "enemies/Bowser/Bowser_Fail_03.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 454,
+						"h": 391
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 454,
+						"h": 390
+					},
+					"frame": {
+						"x": 1565,
+						"y": 1251,
+						"w": 454,
+						"h": 390
+					}
+				},
+				{
+					"filename": "enemies/Goomba/Goomba_Fail_02.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 145,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 145,
+						"h": 147
+					},
+					"frame": {
+						"x": 1565,
+						"y": 1081,
+						"w": 145,
+						"h": 147
+					}
+				},
+				{
+					"filename": "enemies/Goomba/Goomba_Fail_03.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 144,
+						"h": 144
+					},
+					"spriteSourceSize": {
+						"x": 13,
+						"y": 2,
+						"w": 125,
+						"h": 137
+					},
+					"frame": {
+						"x": 1712,
+						"y": 1081,
+						"w": 125,
+						"h": 137
+					}
+				},
+				{
+					"filename": "elements/Cap.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 1160,
+						"h": 617
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 1160,
+						"h": 617
+					},
+					"frame": {
+						"x": 1,
+						"y": 1418,
+						"w": 1160,
+						"h": 617
+					}
+				},
+				{
+					"filename": "enemies/Bowser/Bowser_Walk_02.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 476,
+						"h": 404
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 476,
+						"h": 404
+					},
+					"frame": {
+						"x": 1163,
+						"y": 1643,
+						"w": 476,
+						"h": 404
+					}
+				},
+				{
+					"filename": "enemies/PiranhaPlant/PiranhaPlant_Fire_02.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 364,
+						"h": 196
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 2,
+						"w": 364,
+						"h": 194
+					},
+					"frame": {
+						"x": 1163,
+						"y": 1418,
+						"w": 364,
+						"h": 194
+					}
+				},
+				{
+					"filename": "enemies/PiranhaPlant/PiranhaPlant_Fail_01.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 336,
+						"h": 247
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 336,
+						"h": 247
+					},
+					"frame": {
+						"x": 1641,
+						"y": 1643,
+						"w": 336,
+						"h": 247
+					}
+				},
+				{
+					"filename": "enemies/Buzzy/Buzzy_Fail_03.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 127,
+						"h": 114
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 0,
+						"w": 126,
+						"h": 114
+					},
+					"frame": {
+						"x": 1641,
+						"y": 1892,
+						"w": 126,
+						"h": 114
+					}
+				},
+				{
+					"filename": "elements/Lava.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 117,
+						"h": 122
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 116,
+						"h": 122
+					},
+					"frame": {
+						"x": 1769,
+						"y": 1892,
+						"w": 116,
+						"h": 122
+					}
+				},
+				{
+					"filename": "enemies/Buzzy/Buzzy_Walk_04.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 123,
+						"h": 107
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 123,
+						"h": 107
+					},
+					"frame": {
+						"x": 1887,
+						"y": 1892,
+						"w": 123,
+						"h": 107
+					}
+				},
+				{
+					"filename": "elements/Diploma.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 890,
+						"h": 381
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 890,
+						"h": 381
+					},
+					"frame": {
+						"x": 1,
+						"y": 838,
+						"w": 890,
+						"h": 381
+					}
+				},
+				{
+					"filename": "enemies/PiranhaPlant/PiranhaPlant_Fire_01.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 350,
+						"h": 193
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 2,
+						"w": 349,
+						"h": 191
+					},
+					"frame": {
+						"x": 1,
+						"y": 1221,
+						"w": 349,
+						"h": 191
+					}
+				},
+				{
+					"filename": "elements/Block_Brick.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 197,
+						"h": 195
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 197,
+						"h": 195
+					},
+					"frame": {
+						"x": 352,
+						"y": 1221,
+						"w": 197,
+						"h": 195
+					}
+				},
+				{
+					"filename": "player/Mario/Mario_Fail_03.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 196,
+						"h": 190
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 196,
+						"h": 189
+					},
+					"frame": {
+						"x": 551,
+						"y": 1221,
+						"w": 196,
+						"h": 189
+					}
+				},
+				{
+					"filename": "enemies/KoopaTroopa/KoopaTroopa_Fail_01.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 194,
+						"h": 195
+					},
+					"spriteSourceSize": {
+						"x": 2,
+						"y": 0,
+						"w": 191,
+						"h": 193
+					},
+					"frame": {
+						"x": 749,
+						"y": 1221,
+						"w": 191,
+						"h": 193
+					}
+				}
+			]
+		},
+		{
+			"image": "assets-2.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 1980,
+				"h": 1576
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "elements/Fireball.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 568,
+						"h": 532
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 568,
+						"h": 532
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 568,
+						"h": 532
+					}
+				},
+				{
+					"filename": "enemies/Bowser/Bowser_Walk_04.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 477,
+						"h": 403
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 477,
+						"h": 403
+					},
+					"frame": {
+						"x": 1,
+						"y": 535,
+						"w": 477,
+						"h": 403
+					}
+				},
+				{
+					"filename": "enemies/Bowser/Bowser_Roar_01.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 470,
+						"h": 396
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 1,
+						"w": 469,
+						"h": 395
+					},
+					"frame": {
+						"x": 1,
+						"y": 940,
+						"w": 469,
+						"h": 395
+					}
+				},
+				{
+					"filename": "player/Mario/Mario_Idle_02.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 134,
+						"h": 224
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 2,
+						"w": 134,
+						"h": 222
+					},
+					"frame": {
+						"x": 1,
+						"y": 1337,
+						"w": 134,
+						"h": 222
+					}
+				},
+				{
+					"filename": "player/Mario/Mario_Idle_04.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 134,
+						"h": 224
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 2,
+						"w": 134,
+						"h": 222
+					},
+					"frame": {
+						"x": 1,
+						"y": 1337,
+						"w": 134,
+						"h": 222
+					}
+				},
+				{
+					"filename": "player/FireMario/FireMario_Fire_02.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 221,
+						"h": 220
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 221,
+						"h": 220
+					},
+					"frame": {
+						"x": 137,
+						"y": 1337,
+						"w": 221,
+						"h": 220
+					}
+				},
+				{
+					"filename": "player/FireMario/FireMario_Fire_01.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 214,
+						"h": 223
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 3,
+						"w": 214,
+						"h": 220
+					},
+					"frame": {
+						"x": 360,
+						"y": 1337,
+						"w": 214,
+						"h": 220
+					}
+				},
+				{
+					"filename": "enemies/Bowser/Bowser_Walk_01.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 471,
+						"h": 394
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 471,
+						"h": 394
+					},
+					"frame": {
+						"x": 472,
+						"y": 940,
+						"w": 471,
+						"h": 394
+					}
+				},
+				{
+					"filename": "enemies/Bowser/Bowser_Walk_03.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 474,
+						"h": 392
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 473,
+						"h": 392
+					},
+					"frame": {
+						"x": 480,
+						"y": 535,
+						"w": 473,
+						"h": 392
+					}
+				},
+				{
+					"filename": "player/Mario/Mario_Jump_03.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 181,
+						"h": 220
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 181,
+						"h": 220
+					},
+					"frame": {
+						"x": 576,
+						"y": 1336,
+						"w": 181,
+						"h": 220
+					}
+				},
+				{
+					"filename": "enemies/HammerBro/HammerBro_Fail_01.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 243,
+						"h": 243
+					},
+					"spriteSourceSize": {
+						"x": 2,
+						"y": 23,
+						"w": 239,
+						"h": 219
+					},
+					"frame": {
+						"x": 759,
+						"y": 1336,
+						"w": 239,
+						"h": 219
+					}
+				},
+				{
+					"filename": "enemies/Ptooie/Ptooie_Fail_01.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 200,
+						"h": 339
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 200,
+						"h": 339
+					},
+					"frame": {
+						"x": 945,
+						"y": 929,
+						"w": 200,
+						"h": 339
+					}
+				},
+				{
+					"filename": "enemies/Ptooie/Ptooie_Bite_02.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 182,
+						"h": 293
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 181,
+						"h": 293
+					},
+					"frame": {
+						"x": 1000,
+						"y": 1270,
+						"w": 181,
+						"h": 293
+					}
+				},
+				{
+					"filename": "enemies/Ptooie/Ptooie_Bite_05.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 188,
+						"h": 288
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 188,
+						"h": 288
+					},
+					"frame": {
+						"x": 571,
+						"y": 1,
+						"w": 188,
+						"h": 288
+					}
+				},
+				{
+					"filename": "enemies/Ptooie/Ptooie_Walk_02.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 188,
+						"h": 288
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 188,
+						"h": 288
+					},
+					"frame": {
+						"x": 571,
+						"y": 1,
+						"w": 188,
+						"h": 288
+					}
+				},
+				{
+					"filename": "enemies/Ptooie/Ptooie_Walk_04.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 188,
+						"h": 288
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 188,
+						"h": 288
+					},
+					"frame": {
+						"x": 571,
+						"y": 1,
+						"w": 188,
+						"h": 288
+					}
+				},
+				{
+					"filename": "player/Mario/Mario_Idle_01.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 138,
+						"h": 219
+					},
+					"spriteSourceSize": {
+						"x": 2,
+						"y": 0,
+						"w": 136,
+						"h": 219
+					},
+					"frame": {
+						"x": 571,
+						"y": 291,
+						"w": 136,
+						"h": 219
+					}
+				},
+				{
+					"filename": "player/Mario/Mario_Idle_05.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 138,
+						"h": 219
+					},
+					"spriteSourceSize": {
+						"x": 2,
+						"y": 0,
+						"w": 136,
+						"h": 219
+					},
+					"frame": {
+						"x": 571,
+						"y": 291,
+						"w": 136,
+						"h": 219
+					}
+				},
+				{
+					"filename": "enemies/Ptooie/Ptooie_Fail_03.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 284,
+						"h": 218
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 284,
+						"h": 218
+					},
+					"frame": {
+						"x": 709,
+						"y": 291,
+						"w": 284,
+						"h": 218
+					}
+				},
+				{
+					"filename": "enemies/PiranhaPlant/PiranhaPlant_Bite_01.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 259,
+						"h": 284
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 1,
+						"w": 258,
+						"h": 283
+					},
+					"frame": {
+						"x": 761,
+						"y": 1,
+						"w": 258,
+						"h": 283
+					}
+				},
+				{
+					"filename": "enemies/Ptooie/Ptooie_Walk_01.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 236,
+						"h": 281
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 236,
+						"h": 280
+					},
+					"frame": {
+						"x": 955,
+						"y": 511,
+						"w": 236,
+						"h": 280
+					}
+				},
+				{
+					"filename": "player/Mario/Mario_WalkSmall_01.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 137,
+						"h": 218
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 2,
+						"w": 137,
+						"h": 216
+					},
+					"frame": {
+						"x": 995,
+						"y": 286,
+						"w": 137,
+						"h": 216
+					}
+				},
+				{
+					"filename": "enemies/Ptooie/Ptooie_Walk_03.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 234,
+						"h": 279
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 234,
+						"h": 279
+					},
+					"frame": {
+						"x": 1021,
+						"y": 1,
+						"w": 234,
+						"h": 279
+					}
+				},
+				{
+					"filename": "player/Mario/Mario_WalkBig_01.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 139,
+						"h": 214
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 139,
+						"h": 214
+					},
+					"frame": {
+						"x": 1134,
+						"y": 282,
+						"w": 139,
+						"h": 214
+					}
+				},
+				{
+					"filename": "enemies/PiranhaPlant/PiranhaPlant_Bite_03.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 259,
+						"h": 279
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 258,
+						"h": 278
+					},
+					"frame": {
+						"x": 1257,
+						"y": 1,
+						"w": 258,
+						"h": 278
+					}
+				},
+				{
+					"filename": "enemies/Buzzy/Buzzy_Walk_03.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 124,
+						"h": 106
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 124,
+						"h": 106
+					},
+					"frame": {
+						"x": 955,
+						"y": 793,
+						"w": 124,
+						"h": 106
+					}
+				},
+				{
+					"filename": "enemies/Buzzy/Buzzy_Fail_02.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 110,
+						"h": 106
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 110,
+						"h": 106
+					},
+					"frame": {
+						"x": 1081,
+						"y": 793,
+						"w": 110,
+						"h": 106
+					}
+				},
+				{
+					"filename": "enemies/Ptooie/Ptooie_Fail_02.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 288,
+						"h": 288
+					},
+					"spriteSourceSize": {
+						"x": 3,
+						"y": 22,
+						"w": 283,
+						"h": 266
+					},
+					"frame": {
+						"x": 1147,
+						"y": 901,
+						"w": 283,
+						"h": 266
+					}
+				},
+				{
+					"filename": "elements/Platform.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 128,
+						"h": 93
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 128,
+						"h": 93
+					},
+					"frame": {
+						"x": 1147,
+						"y": 1169,
+						"w": 128,
+						"h": 93
+					}
+				},
+				{
+					"filename": "enemies/HammerBro/HammerBro_Throw_05.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 207,
+						"h": 263
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 207,
+						"h": 262
+					},
+					"frame": {
+						"x": 1183,
+						"y": 1264,
+						"w": 207,
+						"h": 262
+					}
+				},
+				{
+					"filename": "elements/Letter.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 106,
+						"h": 88
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 106,
+						"h": 88
+					},
+					"frame": {
+						"x": 1277,
+						"y": 1169,
+						"w": 106,
+						"h": 88
+					}
+				},
+				{
+					"filename": "enemies/HammerBro/HammerBro_Throw_03.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 195,
+						"h": 261
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 194,
+						"h": 261
+					},
+					"frame": {
+						"x": 1193,
+						"y": 498,
+						"w": 194,
+						"h": 261
+					}
+				},
+				{
+					"filename": "player/Mario/Mario_WalkSmall_03.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 139,
+						"h": 214
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 138,
+						"h": 214
+					},
+					"frame": {
+						"x": 1275,
+						"y": 281,
+						"w": 138,
+						"h": 214
+					}
+				},
+				{
+					"filename": "enemies/Buzzy/Buzzy_Walk_01.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 122,
+						"h": 104
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 122,
+						"h": 104
+					},
+					"frame": {
+						"x": 1193,
+						"y": 761,
+						"w": 122,
+						"h": 104
+					}
+				},
+				{
+					"filename": "enemies/Buzzy/Buzzy_Walk_02.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 119,
+						"h": 102
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 119,
+						"h": 102
+					},
+					"frame": {
+						"x": 1317,
+						"y": 761,
+						"w": 119,
+						"h": 102
+					}
+				},
+				{
+					"filename": "enemies/PiranhaPlant/PiranhaPlant_Bite_04.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 246,
+						"h": 260
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 1,
+						"w": 246,
+						"h": 259
+					},
+					"frame": {
+						"x": 1389,
+						"y": 497,
+						"w": 246,
+						"h": 259
+					}
+				},
+				{
+					"filename": "enemies/Ptooie/Ptooie_Fail_04.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 296,
+						"h": 294
+					},
+					"spriteSourceSize": {
+						"x": 2,
+						"y": 87,
+						"w": 293,
+						"h": 207
+					},
+					"frame": {
+						"x": 1415,
+						"y": 281,
+						"w": 293,
+						"h": 207
+					}
+				},
+				{
+					"filename": "player/Mario/Mario_Jump_04.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 211,
+						"h": 253
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 211,
+						"h": 253
+					},
+					"frame": {
+						"x": 1517,
+						"y": 1,
+						"w": 211,
+						"h": 253
+					}
+				},
+				{
+					"filename": "enemies/Ptooie/Ptooie_Bite_01.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 247,
+						"h": 252
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 247,
+						"h": 252
+					},
+					"frame": {
+						"x": 1730,
+						"y": 1,
+						"w": 247,
+						"h": 252
+					}
+				},
+				{
+					"filename": "enemies/HammerBro/HammerBro_Fail_02.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 255,
+						"h": 255
+					},
+					"spriteSourceSize": {
+						"x": 37,
+						"y": 4,
+						"w": 213,
+						"h": 249
+					},
+					"frame": {
+						"x": 1730,
+						"y": 255,
+						"w": 213,
+						"h": 249
+					}
+				},
+				{
+					"filename": "enemies/KoopaTroopa/KoopaTroopa_Fail_03.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 212,
+						"h": 210
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 40,
+						"w": 208,
+						"h": 169
+					},
+					"frame": {
+						"x": 1637,
+						"y": 506,
+						"w": 208,
+						"h": 169
+					}
+				},
+				{
+					"filename": "enemies/Buzzy/Buzzy_Fail_01.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 118,
+						"h": 102
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 1,
+						"w": 118,
+						"h": 101
+					},
+					"frame": {
+						"x": 1847,
+						"y": 506,
+						"w": 118,
+						"h": 101
+					}
+				},
+				{
+					"filename": "enemies/Goomba/Goomba_Walk_02.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 118,
+						"h": 142
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 117,
+						"h": 142
+					},
+					"frame": {
+						"x": 1847,
+						"y": 609,
+						"w": 117,
+						"h": 142
+					}
+				},
+				{
+					"filename": "enemies/HammerBro/HammerBro_Throw_04.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 205,
+						"h": 247
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 205,
+						"h": 246
+					},
+					"frame": {
+						"x": 1637,
+						"y": 677,
+						"w": 205,
+						"h": 246
+					}
+				},
+				{
+					"filename": "enemies/HammerBro/HammerBro_Throw_01.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 196,
+						"h": 253
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 196,
+						"h": 252
+					},
+					"frame": {
+						"x": 1438,
+						"y": 758,
+						"w": 196,
+						"h": 252
+					}
+				},
+				{
+					"filename": "enemies/Goomba/Goomba_Fail_01.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 115,
+						"h": 144
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 0,
+						"w": 114,
+						"h": 144
+					},
+					"frame": {
+						"x": 1844,
+						"y": 753,
+						"w": 114,
+						"h": 144
+					}
+				},
+				{
+					"filename": "enemies/Goomba/Goomba_Walk_03.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 115,
+						"h": 144
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 0,
+						"w": 114,
+						"h": 144
+					},
+					"frame": {
+						"x": 1844,
+						"y": 899,
+						"w": 114,
+						"h": 144
+					}
+				},
+				{
+					"filename": "player/FireMario/FireMario_Fire_03.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 201,
+						"h": 199
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 0,
+						"w": 200,
+						"h": 199
+					},
+					"frame": {
+						"x": 1636,
+						"y": 925,
+						"w": 200,
+						"h": 199
+					}
+				},
+				{
+					"filename": "player/Mario/Mario_Fail_01.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 196,
+						"h": 198
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 196,
+						"h": 197
+					},
+					"frame": {
+						"x": 1432,
+						"y": 1012,
+						"w": 196,
+						"h": 197
+					}
+				},
+				{
+					"filename": "enemies/Goomba/Goomba_Walk_01.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 116,
+						"h": 143
+					},
+					"spriteSourceSize": {
+						"x": 3,
+						"y": 0,
+						"w": 113,
+						"h": 143
+					},
+					"frame": {
+						"x": 1838,
+						"y": 1045,
+						"w": 113,
+						"h": 143
+					}
+				},
+				{
+					"filename": "enemies/HammerBro/HammerBro_Throw_02.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 194,
+						"h": 248
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 194,
+						"h": 248
+					},
+					"frame": {
+						"x": 1630,
+						"y": 1126,
+						"w": 194,
+						"h": 248
+					}
+				},
+				{
+					"filename": "enemies/KoopaTroopa/KoopaTroopa_Fail_02.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 203,
+						"h": 202
+					},
+					"spriteSourceSize": {
+						"x": 16,
+						"y": 1,
+						"w": 179,
+						"h": 199
+					},
+					"frame": {
+						"x": 1392,
+						"y": 1376,
+						"w": 179,
+						"h": 199
+					}
+				},
+				{
+					"filename": "player/Mario/Mario_Fail_02.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 190,
+						"h": 196
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 189,
+						"h": 196
+					},
+					"frame": {
+						"x": 1573,
+						"y": 1376,
+						"w": 189,
+						"h": 196
+					}
+				},
+				{
+					"filename": "player/Mario/Mario_Fail_04.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 190,
+						"h": 196
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 0,
+						"w": 189,
+						"h": 196
+					},
+					"frame": {
+						"x": 1764,
+						"y": 1376,
+						"w": 189,
+						"h": 196
+					}
+				},
+				{
+					"filename": "elements/Exit.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 153,
+						"h": 178
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 153,
+						"h": 178
+					},
+					"frame": {
+						"x": 1826,
+						"y": 1190,
+						"w": 153,
+						"h": 178
+					}
+				},
+				{
+					"filename": "enemies/Goomba/Goomba_Walk_04.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 111,
+						"h": 148
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 111,
+						"h": 148
+					},
+					"frame": {
+						"x": 1392,
+						"y": 1211,
+						"w": 111,
+						"h": 148
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "3.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:5853cd026b8f6e975ddd78a3f259535c:625c651daab27d47836a297742aee404:80f8303a9cd2a0a1232cf2650af8f659$"
+	}
+}
