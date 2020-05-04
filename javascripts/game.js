@@ -25,7 +25,7 @@ const config = {
         }
     },
     // Order: Start, Level1, Level2, Level3, Level4, Letter
-    scene: [Start, Level1, Level2, Level3, Level4, Letter]
+    scene: [Loading, Start, Level1, Level2, Level3, Level4, Letter]
 };
 
 const game = new Phaser.Game(config);
