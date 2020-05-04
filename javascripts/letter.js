@@ -226,7 +226,7 @@ class Letter extends Phaser.Scene {
                             callback: () => {
                                 // gameState.optionMusic = this.sound.add('');
                                 const optionBg = this.sound.add('theOptions');
-                                optionBg.play();
+                                optionBg.play({ loop: true });
                                 gameState.thanks = this.add.text(config.width / 2, config.height / 2, 'Thank You for Playing!', { fill: '#fff', fontSize: '16px', fontFamily: '"Press Start 2P", monospace' }).setOrigin(0.5, 0.5);
                                 gameState.option1sticker = this.physics.add.sprite(config.width / 4, config.height * 1.5 - 30, 'assets', 'elements/Letter.png').setScale(.55).setOrigin(0.5, 0.5);
                                 gameState.option2sticker = this.physics.add.sprite(config.width * 3 / 4, config.height * 1.5 - 30, 'assets', 'elements/Mushroom.png').setScale(.15).setOrigin(0.5, 0.5);
