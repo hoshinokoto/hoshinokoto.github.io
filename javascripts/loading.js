@@ -26,19 +26,37 @@ class Loading extends Phaser.Scene {
     }
 
     create() {
+        // Prompt user to load game
         gameState.loadMario = this.add.sprite(config.width / 2, config.height / 2 - 20, 'assets', 'player/Mario/Mario_White_01.png').setScale(.3).setOrigin(0.5, 0.5);
+        gameState.promptText = this.add.text(config.width / 2, config.height / 2 + 50, 'Welcome! Press SPACE to Start Loading :)', { fontSize: '14px', fontFamily: '"Press Start 2P", monospace' }).setOrigin(0.5, 0.5);
+
+        // Start loading
         this.createAnims();
-        gameState.loadMario.anims.play('marioWhite', true);
-        this.add.text(config.width / 2 + 20, config.height / 2 + 50, 'Loading...', { fontSize: '14px', fontFamily: '"Press Start 2P", monospace' }).setOrigin(0.5, 0.5);
-        this.time.addEvent({
-            delay: 5000,
-            callback: () => { 
-                this.cameras.main.fadeOut(200, 0);
-                this.cameras.main.once('camerafadeoutcomplete', () => { this.scene.start('Start'); })  
-            },
-            callbackScope: this,
-            loop: false
-        });
+        gameState.cursors = this.input.keyboard.createCursorKeys();
+    }
+
+    update() {
+        // Press Space to start loading
+        if (Phaser.Input.Keyboard.JustDown(gameState.cursors.space)) {
+            gameState.startLoad = true;
+            console.log('space');
+            gameState.cursors.space.enabled = false;
+            this.time.addEvent({
+                delay: 5000,
+                callback: () => { 
+                    this.cameras.main.fadeOut(200, 0);
+                    this.cameras.main.once('camerafadeoutcomplete', () => { this.scene.start('Start'); })  
+                },
+                callbackScope: this,
+                loop: false
+            });
+        }
+
+        // Mario walks while loading
+        if (gameState.startLoad) {
+            gameState.loadMario.anims.play('marioWhite', true);
+            gameState.promptText.setText('Loading...');
+        }
     }
     
     createAnims() {

@@ -1,4 +1,5 @@
 const gameState = {
+    startLoad: false,
     active: true,
     ySpeed: -500,
     marioScale: 0.3,
