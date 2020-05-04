@@ -3,16 +3,16 @@ class Letter extends Phaser.Scene {
         super({ key: "Letter" });
     }
 
-    preload() {
-        this.load.image('bgLetter', '../images/Background_Letter.jpg');
-        this.load.multiatlas('assets', '../images/assets.json', 'images');
-        this.load.audio('marioWin', '../sounds/marioWin.mp3');
-        this.load.audio('theLetter', '../sounds/theLetter.mp3');
-        this.load.audio('theOptions', '../sounds/theOptions.mp3');
-        this.load.audio('marioJumpSound', '../sounds/marioJump.mp3');
-        this.load.audio('click', '../sounds/click.mp3');
-        this.load.audio('marioGo', '../sounds/marioLetsgo.mp3');
-    }
+    // preload() {
+    //     this.load.image('bgLetter', '../images/Background_Letter.jpg');
+    //     this.load.multiatlas('assets', '../images/assets.json', 'images');
+    //     this.load.audio('marioWin', '../sounds/marioWin.mp3');
+    //     this.load.audio('theLetter', '../sounds/theLetter.mp3');
+    //     this.load.audio('theOptions', '../sounds/theOptions.mp3');
+    //     this.load.audio('marioJumpSound', '../sounds/marioJump.mp3');
+    //     this.load.audio('click', '../sounds/click.mp3');
+    //     this.load.audio('marioGo', '../sounds/marioLetsgo.mp3');
+    // }
 
     create() {
         // Reset letter status

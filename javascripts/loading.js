@@ -5,6 +5,7 @@ class Loading extends Phaser.Scene {
 
     preload() {
         this.load.image('bgLevel', '../images/Background_Level.png');
+        this.load.image('bgLetter', '../images/Background_Letter.jpg');
         this.load.multiatlas('assets', '../images/assets.json', 'images');
         this.load.audio('bgStart', '../sounds/bgStart.mp3');
         this.load.audio('marioGo', '../sounds/marioLetsgo.mp3');
@@ -23,6 +24,10 @@ class Loading extends Phaser.Scene {
         this.load.audio('bowserHitSound', '../sounds/bowserHit.mp3');
         this.load.audio('bowserFailSound', '../sounds/bowserFail.mp3');
         this.load.audio('goSound', '../sounds/goSound.mp3');
+        this.load.audio('marioWin', '../sounds/marioWin.mp3');
+        this.load.audio('theLetter', '../sounds/theLetter.mp3');
+        this.load.audio('theOptions', '../sounds/theOptions.mp3');
+        this.load.audio('click', '../sounds/click.mp3');
     }
 
     create() {
