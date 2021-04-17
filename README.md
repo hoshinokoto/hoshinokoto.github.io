@@ -10,6 +10,5 @@ Well, after numerous searching, learning, coding and debugging for the whole wee
 If you happen to have played my game, I appreciate your interest and hope you enjoy it!! :)) (Here's the link: https://hoshinokoto.github.io/)
 
 Disclaimer:
-
 Please be advised that all the images and sounds in this project are for practice and personal use only.
 I do not own any of these images or audios.
