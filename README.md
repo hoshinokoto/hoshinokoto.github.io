@@ -1,4 +1,4 @@
-# hoshinokoto.github.io
+# HTML5 Game "The Adventure"
 First Time Building Phaser 3 Game
 
 Considering my brother loves to play Nintendo video game, I decided to build a small web game as a birthday gift for him.
